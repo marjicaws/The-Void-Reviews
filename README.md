@@ -18,7 +18,7 @@ Its a movie review website for horror movies strictly.
 
 
 ## Component Hierarchy
-Show your component hierarchy here! Use [this](https://cms-assets.tutsplus.com/uploads/users/1795/posts/30352/image/GettingStartedWithReduxTutorial-React-Component-Structure.png) as an example.
+![Alt text](https://res.cloudinary.com/marssantos/image/upload/v1638466751/The%20Void%20Reviews/Screen_Shot_2021-12-02_at_12.38.52_PM_yiwl4a.png)
 
 ## API and Data Sample
 
