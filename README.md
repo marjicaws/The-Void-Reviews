@@ -138,7 +138,7 @@ The functionality will then be divided into two separate lists: MVP and PostMVP.
 - Use only React for DOM Manipulation.
 
 #### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
+
 
 - Utilize POST, PUT , DELETE to be able to add reviews to movie.
 
