@@ -230,9 +230,11 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Image Links | H     | 4hrs.  | XXXhrs | XXXhrs |
 | GET Request | H     | 4hrs   | XXXhrs | XXXhrs |
 | Set-up React| H     | 2hrs   | XXXhrs | XXXhrs |
+| Format Comps| H     | 7hrs   | 2.5hrs | 2.5hrs |
 | Submit Form | H     | 4hrs   | XXXhrs | XXXhrs |
 | CSS Styling |Med    | 4hrs   | XXXhrs | XXXhrs |
 | GET Request | H     | 4hrs   | XXXhrs | XXXhrs |
-| Total.      | H     | 6hrs   | XXXhrs | XXXhrs |
+| MVP Request | H     | 8hrs   | 2.5hrs | 2.5hrs |
+| Total.      | H     | 37hrs   | XXXhrs | XXXhrs |
 
 
