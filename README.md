@@ -24,40 +24,78 @@ Its a movie review website for horror movies strictly.
 
 Show us a snippet of JSON returned by your Airtable (you can find it under the API documentation) so we know you can access it and get the info you need. This __must__ be properly formatted. An example is below:
 
-```json
+```"movie": "Midsommar",
+"synopsis": "A couple travel to Sweden to visit their friend's rural hometown for its fabled midsummer festival, but what begins as an idyllic retreat quickly devolves into an increasingly violent and bizarre competition at the hands of a pagan cult."
+},
+"createdTime": "2021-12-01T18:57:41.000Z"
+},
 {
-    "records": [
-        {
-            "id": "recONRzIUTuZ5lXaF",
-            "fields": {
-                "author": "Liz Yrineo",
-                "setup": "Why did the tomato turn red?",
-                "punchline": "Because it saw the salad dressing!"
-            },
-            "createdTime": "2020-11-30T16:03:09.000Z"
-        },
-        {
-            "id": "rec3oYZ5Tp0AIDsKe",
-            "fields": {
-                "author": "Rachel Moskowitz",
-                "setup": "What did the green grape say to the red grape?",
-                "punchline": "Breathe, idiot, breathe!"
-            },
-            "createdTime": "2020-11-30T16:03:09.000Z"
-        },
-        {
-            "id": "recA34tOaoE1IVeC1",
-            "fields": {
-                "author": "Gary Grant",
-                "setup": "How do you make holy water?",
-                "punchline": "You boil the hell out of it!"
-            },
-            "createdTime": "2020-11-30T16:03:09.000Z"
-        }
-    ],
-    "offset": "recA34tOaoE1IVeC1"
+"id": "recHcQJsZr9tEfyUa",
+"fields": {
+"image": [
+{
+"id": "attL37B65fInMIylZ",
+"width": 1016,
+"height": 1500,
+"url": "https://dl.airtable.com/.attachments/494d5feab2eb4ee904b1b928d78c64b8/e658c29b/MV5BNmQyMmUzMmYtMTA4OS00ZmRjLWE0NWYtNjc0ZGM0N2E4YzQ5XkEyXkFqcGdeQXVyMTQxNzMzNDI._V1_.jpg",
+"filename": "MV5BNmQyMmUzMmYtMTA4OS00ZmRjLWE0NWYtNjc0ZGM0N2E4YzQ5XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+"size": 243169,
+"type": "image/jpeg",
+"thumbnails": {
+"small": {
+"url": "https://dl.airtable.com/.attachmentThumbnails/8d0811139da6688141e484dc961b296a/7ac8b56e",
+"width": 24,
+"height": 36
+},
+"large": {
+"url": "https://dl.airtable.com/.attachmentThumbnails/38bdec36b94b506ad39f144fe54438d5/a791cddf",
+"width": 512,
+"height": 756
+},
+"full": {
+"url": "https://dl.airtable.com/.attachmentThumbnails/5f96b40f2759f1f1c6605705fdd03171/ac594075",
+"width": 3000,
+"height": 3000
 }
-```
+}
+}
+],
+"movie": "Tusk",
+"synopsis": "A U.S. podcaster (Justin Long) ventures into the Canadian wilderness to interview an old man (Michael Parks) who has an extraordinary past, and the American learns the man has a dark secret involving a walrus."
+},
+"createdTime": "2021-12-01T19:01:40.000Z"
+},
+{```
+
+
+
+
+
+```{
+"records": [
+{
+"id": "rec4qst4jpvlZKXqd",
+"fields": {
+"name": "Marilyn",
+"title": "Parasite",
+"review": "Cool!"
+},
+"createdTime": "2021-12-02T17:40:44.000Z"
+},
+{
+"id": "rec4uOyYKeo0koHCo",
+"fields": {
+"name": "Mariah",
+"title": "Insidious",
+"review": "Weird. I hated it."
+},
+"createdTime": "2021-12-02T17:40:44.000Z"
+},
+{
+"id": "recD8Lg4bd9UZs8Fw",
+"fields": {},
+"createdTime": "2021-12-02T19:16:46.000Z"
+},```
 
 ### MVP/PostMVP
 
