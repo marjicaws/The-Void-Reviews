@@ -12,7 +12,7 @@ Its a movie review website for horror movies strictly.
 
 ![Alt text](https://res.cloudinary.com/marssantos/image/upload/v1638457651/The%20Void%20Reviews/Screen_Shot_2021-12-02_at_9.57.42_AM_imragj.png)
 ![Alt text](https://res.cloudinary.com/marssantos/image/upload/v1638457650/The%20Void%20Reviews/Screen_Shot_2021-12-02_at_9.58.02_AM_tggc1a.png)
-![Alt text](https://res.cloudinary.com/marssantos/image/upload/v1638457650/The%20Void%20Reviews/Screen_Shot_2021-12-02_at_9.57.57_AM_yqolts.png)
+![Alt text](https://res.cloudinary.com/marssantos/image/upload/v1638464910/The%20Void%20Reviews/Screen_Shot_2021-12-02_at_12.07.56_PM_kpcwgo.png)
 ![Alt text](https://res.cloudinary.com/marssantos/image/upload/v1638457650/The%20Void%20Reviews/Screen_Shot_2021-12-02_at_9.57.51_AM_uqrauh.png)
 ![Alt text](https://res.cloudinary.com/marssantos/image/upload/v1638457646/The%20Void%20Reviews/Screen_Shot_2021-12-02_at_9.58.09_AM_wx87kq.png)
 
