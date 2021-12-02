@@ -190,17 +190,20 @@ Show us a snippet of JSON returned by your Airtable (you can find it under the A
 The functionality will then be divided into two separate lists: MVP and PostMVP.  Carefully decide what is placed into your MVP, as the client will expect this functionality to be implemented upon project completion.  
 
 #### MVP 
-*These are examples only. Replace with your own MVP features.*
 
-- Find and use external api 
-- Render data on page 
-- Allow user to choose favorites 
+- Be a working, interactive React app, built using create react app.
+- Utilize React Router, installed via NPM.
+- Have at least 6 separate, rendered components.
+- Implement an organized and understandable React file structure.
+- Utilize functional components appropriately.
+- Use Axios to consume data from Airtable, and GET/render that data in your components.
+- Use Axios to POST/create new data on Airtable.
+- Use only React for DOM Manipulation.
 
 #### PostMVP  
 *These are examples only. Replace with your own Post-MVP features.*
 
-- Add second API
-- Use local storage to save user favorites
+- Utilize POST, PUT , DELETE to be able to add reviews to movie.
 
 ## Project Schedule
 
@@ -223,17 +226,13 @@ Tell us how long you anticipate spending on each area of development. Be sure to
 Time frames are also key in the development cycle.  You have limited time to code all parts of your app.  Your estimates can then be used to evalute possibilities based on time needed and the actual time you have before the app must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add an additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
-| --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+|     ---     | :---: |  :---: | :---:  | :---:  |
+| Image Links | H     | 4hrs.  | XXXhrs | XXXhrs |
+| GET Request | H     | 4hrs   | XXXhrs | XXXhrs |
+| Set-up React| H     | 2hrs   | XXXhrs | XXXhrs |
+| Submit Form | H     | 4hrs   | XXXhrs | XXXhrs |
+| CSS Styling |Med    | 4hrs   | XXXhrs | XXXhrs |
+| GET Request | H     | 4hrs   | XXXhrs | XXXhrs |
+| Total.      | H     | 6hrs   | XXXhrs | XXXhrs |
 
-## SWOT Analysis
 
-### Strengths:
-
-### Weaknesses:
-
-### Opportunities:
-
-### Threats:
