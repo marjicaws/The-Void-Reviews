@@ -18,7 +18,7 @@ Its a movie review website for horror movies strictly.
 
 
 ## Component Hierarchy
-![Alt text](https://res.cloudinary.com/marssantos/image/upload/v1638466751/The%20Void%20Reviews/Screen_Shot_2021-12-02_at_12.38.52_PM_yiwl4a.png)
+![Alt text](https://res.cloudinary.com/marssantos/image/upload/v1638479027/The%20Void%20Reviews/Screen_Shot_2021-12-02_at_4.03.07_PM_syvfg3.png)
 
 ## API and Data Sample
 
