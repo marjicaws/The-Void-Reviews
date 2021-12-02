@@ -24,7 +24,41 @@ Its a movie review website for horror movies strictly.
 
 Show us a snippet of JSON returned by your Airtable (you can find it under the API documentation) so we know you can access it and get the info you need. This __must__ be properly formatted. An example is below:
 
-```"movie": "Midsommar",
+```json
+{
+"records": [
+{
+"id": "recEXt1QqyquqPLB1",
+"fields": {
+"image": [
+{
+"id": "att7nIadpQleIY8xW",
+"width": 1920,
+"height": 1080,
+"url": "https://dl.airtable.com/.attachments/6a9c392a132233498749cff32d782f17/cb4c60de/thumb-1920-1122557.jpg",
+"filename": "thumb-1920-1122557.jpg",
+"size": 253886,
+"type": "image/jpeg",
+"thumbnails": {
+"small": {
+"url": "https://dl.airtable.com/.attachmentThumbnails/48a860ed777886aae99d10c772ef1566/224041d2",
+"width": 64,
+"height": 36
+},
+"large": {
+"url": "https://dl.airtable.com/.attachmentThumbnails/a9e5322d1860ad5a645f790819ca4afa/11cfa8d9",
+"width": 910,
+"height": 512
+},
+"full": {
+"url": "https://dl.airtable.com/.attachmentThumbnails/3c32b54c7f9684c814f2349b581aac8b/6da65e25",
+"width": 3000,
+"height": 3000
+}
+}
+}
+],
+"movie": "Midsommar",
 "synopsis": "A couple travel to Sweden to visit their friend's rural hometown for its fabled midsummer festival, but what begins as an idyllic retreat quickly devolves into an increasingly violent and bizarre competition at the hands of a pagan cult."
 },
 "createdTime": "2021-12-01T18:57:41.000Z"
@@ -64,14 +98,13 @@ Show us a snippet of JSON returned by your Airtable (you can find it under the A
 "synopsis": "A U.S. podcaster (Justin Long) ventures into the Canadian wilderness to interview an old man (Michael Parks) who has an extraordinary past, and the American learns the man has a dark secret involving a walrus."
 },
 "createdTime": "2021-12-01T19:01:40.000Z"
-},
-{```
+```
 
 
 
 
-
-```{
+```json
+{
 "records": [
 {
 "id": "rec4qst4jpvlZKXqd",
