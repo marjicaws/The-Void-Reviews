@@ -1,7 +1,7 @@
 import "./App.css";
 import { Routes, Route, Link } from "react-router-dom";
 import { useEffect, useState } from "react";
-import { grabHorror } from "./services/index";
+import { grabHorror, grabReview } from "./services/index";
 import Detail from "./components/Detail";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
@@ -9,6 +9,17 @@ import Submit from "./components/Submit";
 
 function App() {
   const [horrorData, setHorrorData] = useState([]);
+  const [review, setReview] = useState([])
+
+
+  useEffect(() => {
+    const getAllReviews = async () => {
+      const resp = await grabReview();
+      setReview(resp.records);
+      console.log(resp.records)
+    }
+    getAllReviews();
+  }, [])
 
   useEffect(() => {
     const getAllMovies = async () => {

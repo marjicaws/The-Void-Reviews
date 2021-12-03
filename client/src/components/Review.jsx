@@ -1,13 +1,22 @@
 import { useState } from "react"
+import { postHorror } from "../services";
 
 export default function Review (){
     
     const [name, setName] = useState('')
     const [review, setReview] = useState('')
     
-    const handleSubmit = async () 
-    return (
-        
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        const newReview = {
+          name,
+          review,
+          
+        };
+        const res = await (newReview);
+      };
+
+      return (
         <div>
             <form onSubmit={handleSubmit}>
             <input
