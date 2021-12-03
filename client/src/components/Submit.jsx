@@ -14,7 +14,7 @@ export default function Submit() {
         imgURL
     }
    const res = await postHorror(newSubmit)
-   console.log(res)
+   
   };
 
   return (
