@@ -13,3 +13,8 @@ export const grabHorror = async () => {
     const res = await axios.get(BASE_URL, config)
     return res.data
 }
+
+export const postHorror = async (body) => {
+    const res = await axios.post(BASE_URL, {fields: body}, config)
+    return res.data
+}
