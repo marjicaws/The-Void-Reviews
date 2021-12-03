@@ -11,7 +11,8 @@ function App() {
   useEffect(() => {
     const getAllMovies = async () => {
       const res =  await grabHorror()
-      setHorrorData(res)
+      setHorrorData(res.records)
+      console.log(res.records)
       
     }
     getAllMovies()
