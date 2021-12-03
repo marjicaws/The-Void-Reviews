@@ -1,3 +1,28 @@
+
+body {
+  background-color: #D9D7D3;
+}
+
+a {
+  
+  font-family: 'Archivo', sans-serif, 600;
+  font-size: 75px;
+  color: #212738 ;
+  text-decoration: none;
+  margin: 10px;
+  
+  
+
+}
+.submitlink {
+  font-size: large;
+
+}
+
+.nav {
+  background-color: #F5F5F5;
+  text-align: left;
+}
 .App {
   text-align: center;
 }

@@ -33,6 +33,9 @@ function App() {
 
   return (
     <div className="App">
+      <head>
+        <title><link href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;600&display=swap" rel="stylesheet"/></title>
+      </head>
       <Navbar />
       <Routes>
         <Route
