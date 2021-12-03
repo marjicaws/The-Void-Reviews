@@ -33,6 +33,7 @@ function App() {
           ))}
         </div>
         }/>
+        <Route path='/detail/:id' element={<h3>Our Detail Page</h3>} />
       </Routes> 
     </div>
   );
