@@ -1,16 +1,20 @@
 import './App.css';
 //import { Routes , Route } from 'react-router-dom'
 import { useEffect , useState } from 'react'
-import axios from 'axios'
-import {BASE_URL, config} from './services/index'
+import { grabHorror } from './services/index'
 
 
 function App() {
 
-  const [horrorData, setHorrorData] = useState({})
+  const [horrorData, setHorrorData] = useState([])
 
   useEffect(() => {
-    
+    const getAllMovies = async () => {
+      const res =  await grabHorror()
+      setHorrorData(res)
+      
+    }
+    getAllMovies()
   }, [])
 
 
