@@ -17,28 +17,30 @@ export default function Submit() {
   };
 
   return (
-    <div>
+    <div className = "formblock">
         <h3>Submit any movie you like, so long as its horror.</h3>
       <form onSubmit={handleSubmit}>
-        <label>Movie Title</label>
+          <ul>
+       <li> <label>Movie Title</label>
         <input
           type="text"
           value={movie}
           onChange={(e) => setMovie(e.target.value)}
-        />
-        <label>Synopsis</label>
+        /> </li>
+        <li><label>Synopsis</label>
         <input
           type="text"
           value={synopsis}
           onChange={(e) => setSynopsis(e.target.value)}
-        />
-        <label>Image</label>
-        <input
+        /></li>
+        <li> <label>Image</label>
+       <input
           type="url"
           value={imgURL}
           onChange={(e) => setImgUrl(e.target.value)}
-        />
+        /></li>
         <button type="submit">Submit to the Void</button>
+        </ul>
       </form>
     </div>
   );
