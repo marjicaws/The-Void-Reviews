@@ -17,7 +17,7 @@ export default function Detail(props) {
  
 
   return (
-    <div>
+    <div className = "detail">
       <h2>{horrors.fields.movie}</h2>
       <p>{horrors.fields.synopsis}</p>
       <img src={horrors.fields.imgURL}></img>
