@@ -25,8 +25,8 @@ export const postHorror = async (body) => {
     return res.data
 }
 
-export const postReview = async (body) => {
-    const res = await axios.post(REV_URL, {fields: body}, config)
+export const postReview = async (body, id) => {
+    const res = await axios.post(REV_URL, {fields: {...body, horror: [id]}}, config)
     return res.data
 }
 

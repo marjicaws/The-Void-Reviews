@@ -1,9 +1,12 @@
-import { useState } from "react";
-
+import { useState  } from "react";
+import { postReview } from "../services";
+import { useParams , useNavigate } from "react-router-dom";
 
 export default function Review() {
   const [name, setName] = useState("");
   const [review, setReview] = useState("");
+  const params = useParams();
+  const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -11,7 +14,8 @@ export default function Review() {
       name,
       review,
     };
-    await newReview;
+    await postReview(newReview, params.id)
+    navigate(`/detail/${params.id}`) 
   };
 
   return (
