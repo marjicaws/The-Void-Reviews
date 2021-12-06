@@ -7,6 +7,7 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Submit from "./components/Submit";
 import Footer from "./components/Footer";
+import Review from "./components/Review";
 
 function App() {
   const [horrorData, setHorrorData] = useState([]);
@@ -58,6 +59,11 @@ function App() {
         <Route
           path = '/new'
           element = {<Submit />} />
+
+          <Route 
+            path = '/detail/:id/edit' 
+            element = {<Review />} />
+
 
           
       </Routes>

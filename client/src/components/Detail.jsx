@@ -1,4 +1,5 @@
 import { useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 
@@ -22,10 +23,7 @@ export default function Detail(props) {
       <p>{horrors.fields.synopsis}</p>
       <img src={horrors.fields.imgURL}></img>
     
-   {/* <div>
-       <p>{reviews.fields.name}</p>
-       <h4>{reviews.fields.review}</h4>
-   </div> */}
+   <Link to = '/detail/:id/edit'><button>Leave a review for this movie!</button></Link>
     </div>
     
     

@@ -18,20 +18,25 @@ export default function Review (){
 
       return (
         <div>
+            <ul>
             <form onSubmit={handleSubmit}>
+
+              <li>  <label>Name</label>
             <input
           type="text"
           value={name}
           onChange={(e) => setName(e.target.value)}
-        />
-        <input
+        /> </li>
+       <li> <label>Review Here</label><input
           type="text"
           value={review}
           onChange={(e) => setReview(e.target.value)}
-        />
+        /> </li>
+        
        <button type="submit">Submit to the Void</button>
-
+    
             </form>
+            </ul>
         </div>
     )
 }
