@@ -15,6 +15,11 @@ export const grabHorror = async () => {
     return res.data
 }
 
+export const grabReview = async () => {
+    const res = await axios.get(REV_URL, config)
+    return res.data
+}
+
 export const postHorror = async (body) => {
     const res = await axios.post(BASE_URL, {fields: body}, config)
     return res.data
@@ -25,7 +30,7 @@ export const postReview = async (body) => {
     return res.data
 }
 
-export const grabReview = async () => {
-    const res = await axios.get(REV_URL, config)
-    return res.data
+export const deleteReview = async () => {
+    const res = await axios.delete(REV_URL, config)
+    
 }
