@@ -148,11 +148,11 @@ This schedule will be used to keep track of your progress throughout the week an
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|July 10-12| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|July 13| Project Approval | Incomplete
-|July 13| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|July 14| Pseudocode / actual code | Incomplete
-|July 15| Initial Clickable Model  | Incomplete
+|July 10-12| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
+|July 13| Project Approval | Complete
+|July 13| Core Application Structure (HTML, CSS, etc.) | Complete
+|July 14| Pseudocode / actual code | Complete
+|July 15| Initial Clickable Model  | Pending
 |July 16| MVP | Incomplete
 |July 17| Presentations | Incomplete
 
@@ -164,14 +164,14 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 |     ---     | :---: |  :---: | :---:  | :---:  |
-| Image Links | H     | 4hrs.  | XXXhrs | XXXhrs |
-| GET Request | H     | 4hrs   | XXXhrs | XXXhrs |
-| Set-up React File Structure| H     | 2hrs   | XXXhrs | XXXhrs |
+| Image Links | H     | 4hrs.  | 3 hrs  | XXXhrs |
+| GET Request | H     | 4hrs   | 4 hrs  | XXXhrs |
+| Set-up React File Structure| H     | 2hrs   | 2 hrs  | XXXhrs |
 | Format Comps| H     | 7hrs   | 2.5hrs | 2.5hrs |
-| Submit Form | H     | 4hrs   | XXXhrs | XXXhrs |
+| Submit Form | H     | 4hrs   | XXXhrs | 2.5hrs |
 | CSS Styling |Med    | 4hrs   | XXXhrs | XXXhrs |
 | POST Request| H     | 4hrs   | XXXhrs | XXXhrs |
-| MVP         | H     | 8hrs   | 2.5hrs | 2.5hrs |
+| MVP         | H     | 8hrs   | XXXhrs | XXXhrs |
 | Total.      | H     | 37hrs   | XXXhrs | XXXhrs |
 
 
