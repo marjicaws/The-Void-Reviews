@@ -21,7 +21,7 @@ export default function Detail(props) {
     <div className = "detail">
       <h2>{horrors.fields.movie}</h2>
       <p>{horrors.fields.synopsis}</p>
-      <img src={horrors.fields.imgURL}></img>
+      <img id = "detimg"src={horrors.fields.imgURL}></img>
     
    <Link to = '/detail/:id/edit'><button>Leave a review for this movie!</button></Link>
     </div>
