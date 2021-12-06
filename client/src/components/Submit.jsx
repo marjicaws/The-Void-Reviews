@@ -13,7 +13,7 @@ export default function Submit() {
       synopsis,
       imgURL,
     };
-    const res = await postHorror(newSubmit);
+    await postHorror(newSubmit);
   };
 
   return (

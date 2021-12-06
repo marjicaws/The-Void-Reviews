@@ -32,7 +32,10 @@ li {
   padding: 10px ;
   text-align: left;
 }
-
+.biolink {
+  
+  margin: 20px;
+}
 .formblock {
   background-image: url("./images/images-1.jpg");
   margin: 40px;
