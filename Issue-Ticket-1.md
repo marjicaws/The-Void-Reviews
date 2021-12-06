@@ -2,7 +2,7 @@
 
 
 ## Unexpected Behavior
-I''m having trouble adding my movie review form to my page and getting the form to show up on the Detail page.
+I'm having trouble adding my movie review form to my page and getting the form to show up on the Detail page.
 
 ## Expected Behavior
 
@@ -15,15 +15,64 @@ I expect to be able to show the submitted form response on the detail page after
 ```md
 1. # PROJECT ISSUE TICKET
 
-> Copy and paste the raw MD code of this template, then replace the quote blocks with your detailed, clear descriptions.
+> ```json
+
+import { useState } from "react";
+
+
+export default function Review() {
+  const [name, setName] = useState("");
+  const [review, setReview] = useState("");
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const newReview = {
+      name,
+      review,
+    };
+    await newReview;
+  };
+
+  return (
+    <div>
+      <ul>
+        <form onSubmit={handleSubmit}>
+          <li>
+            {" "}
+            <label>Name</label>
+            <input
+              type="text"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+            />{" "}
+          </li>
+          <li>
+            {" "}
+            <label>Review Here</label>
+            <input
+              type="text"
+              value={review}
+              onChange={(e) => setReview(e.target.value)}
+            />{" "}
+          </li>
+
+          <button type="submit">Submit to the Void</button>
+        </form>
+      </ul>
+    </div>
+  );
+}
+
+```
+
 
 ## Unexpected Behavior
 
-> Describe your issue, question, or bug with a clear and concise description.
+> Nothing happens. Nothing shows in the review area. Nothing is showing from the review API but the Api is linked in the console.
 
 ## Expected Behavior
 
-> Give a clear and concise description of what you *expected* to happen.
+> For the review to show on the detail page once the form is submitted from the edit review page.
 
 ## Reproduce the Error
 
