@@ -28,10 +28,19 @@ ul {
   list-style-type: none;
 }
 
+li {
+  padding: 10px ;
+  text-align: left;
+}
+
 .formblock {
   background-image: url("./images/images-1.jpg");
   margin: 40px;
   padding: 30px;
+}
+input {
+  display: flex;
+  align-items: center;
 }
 .nav {
   background-color: #FFFFFF;

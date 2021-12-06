@@ -41,7 +41,7 @@ function App() {
         <Route
           path="/"
           element={
-            <div>
+            <div className = "imglink">
               {horrorData.map((hd) => (
                 <Link to={`/detail/${hd.id}`}>
                   <img src={hd.fields.imgURL} />
