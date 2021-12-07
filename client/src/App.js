@@ -12,6 +12,7 @@ import Review from "./components/Review";
 function App() {
   const [horrorData, setHorrorData] = useState([]);
   const [review, setReview] = useState([])
+  const [toggle, setToggle] = useState(false)
 
 
   useEffect(() => {
@@ -21,7 +22,7 @@ function App() {
       console.log(resp.records)
     }
     getAllReviews();
-  }, [])
+  }, [toggle])
 
   useEffect(() => {
     const getAllMovies = async () => {
@@ -30,7 +31,7 @@ function App() {
       console.log(res.records);
     };
     getAllMovies();
-  }, []);
+  }, [toggle]);
 
   return (
     <div className="App">
