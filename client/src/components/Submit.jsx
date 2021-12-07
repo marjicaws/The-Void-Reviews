@@ -17,29 +17,49 @@ export default function Submit() {
   };
 
   return (
-    <div className = "formblock">
+    <div class="border border-light" class="border-0" className = "formblock">
         <h3>Submit any movie you like, so long as its horror.</h3>
       <form onSubmit={handleSubmit}>
           <ul>
-       <li> <label>Movie Title</label>
+       <li> <label for="movietitle">Movie Title</label>
+       <div class="input-group mb-3">
+        <div class="input-group-prepend">
+
         <input
           type="text"
           value={movie}
           onChange={(e) => setMovie(e.target.value)}
-        /> </li>
-        <li><label>Synopsis</label>
+          class="form-control" id="movietitle" 
+          aria-describedby="basic-addon3"/> </div> 
+        </div> 
+        </li>
+
+        <li><label for = "synopsis">Synopsis</label>
+        <div class="input-group mb-3">
+        <div class="input-group-prepend">
+        
         <input
           type="text"
           value={synopsis}
           onChange={(e) => setSynopsis(e.target.value)}
-        /></li>
-        <li> <label>Image</label>
+          class="form-control" id="basic-url" aria-describedby="basic-addon3"
+        />
+        </div>
+        </div>
+        </li>
+        <li> <label for = 'image'>Image</label>
+        <div class="input-group mb-3">
+        <div class="input-group-prepend">
        <input
           type="url"
           value={imgURL}
           onChange={(e) => setImgUrl(e.target.value)}
-        /></li>
-        <button type="submit">Submit to the Void</button>
+          class="form-control" id="basic-url" aria-describedby="basic-addon3"
+        />
+        </div>
+        </div>
+        </li>
+        <button type="submit" class="btn btn-secondary">Submit to the Void</button>
         </ul>
       </form>
     </div>
