@@ -23,9 +23,16 @@ a {
 }
 
 .detail {
-  background-color: #f7f5f3;
+  background-image: url("./images/images-1.jpg");
   
 
+}
+.moviedetail {
+  background-color: whitesmoke;
+}
+.detimg {
+  max-height: 200px;
+  max-width: 200px;
 }
 .webbio {
   font-family: 'Archivo', sans-serif;

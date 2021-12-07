@@ -14,9 +14,11 @@ export default function Detail(props) {
 
   return (
     <div className="detail">
+      <div className = "moviedetail">
       <h2>{horrors.fields.movie}</h2>
       <p>{horrors.fields.synopsis}</p>
       <img id="detimg" src={horrors.fields.imgURL}></img>
+      </div>
 
       <Link to={`/detail/${params.id}/edit`}>
         <button>Leave a review for this movie!</button>
