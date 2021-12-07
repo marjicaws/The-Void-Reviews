@@ -15,10 +15,15 @@ a {
 .submitlink {
   font-size: small;
 }
+.nav {
+  padding: -100px;
+
+}
 .revboard {
   background-image: url("./images/images-1.jpg");
-  padding: 40px;
-  padding-bottom: 200px;
+  padding: 20px;
+  padding-bottom: 100px;
+  padding-top: 50px;
   margin-left: 50px;
   margin-right: 150px;
 }
@@ -26,22 +31,33 @@ a {
   --gap: 16px;
   --num-cols: 4;
   --row-height: 300px;
-
+  width: 25%;
+  height: 50%;
   box-sizing: border-box;
   padding: var(--gap);
   display: grid;
   grid-template-columns: repeat(var(--num-cols), 1fr);
   grid-auto-rows: var(--row-height);
   gap: var(--gap);
+
 }
 
 .image-grid > img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .image-grid{
+    --num-cols: 2;
+    --row-height: 200px;
+  }
+  
 }
 .revplate {
   background-color: whitesmoke;
-  margin: 100px;
+  margin: 75px;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -54,19 +70,35 @@ a {
 .revsec {
   background-color: whitesmoke;
   padding: 1px;
-  margin-left: 500px;
-  margin-right: 500px;
+  
+
+}
+
+
+.wholethang {
+  background-color: whitesmoke;
+  margin-left: 100px;
+  margin-right: 100px;
+  
+  
 }
 
 .detail {
   background-image: url("./images/images-1.jpg");
+  background-size: 100%;
+  
 }
 .moviedetail {
   background-color: whitesmoke;
+  margin: 50px;
+  padding: 20px;
 }
 .detimg {
-  max-height: 200px;
-  max-width: 200px;
+  max-height: 500px;
+  max-width: 500px;
+  margin-left: 600px;
+  margin-bottom: 100px;
+  
 }
 .webbio {
   font-family: "Archivo", sans-serif;
@@ -79,6 +111,8 @@ li {
   padding: 10px;
   text-align: left;
 }
+
+
 
 .formblock {
   background-image: url("./images/images-1.jpg");

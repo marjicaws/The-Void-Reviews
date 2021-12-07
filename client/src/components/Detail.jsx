@@ -17,15 +17,15 @@ export default function Detail(props) {
       <div className="moviedetail">
         <h2 class="font-weight-normal">{horrors.fields.movie}</h2>
         <p>{horrors.fields.synopsis}</p>
-        <img id="detimg" src={horrors.fields.imgURL}></img>
+        <img className="detimg" src={horrors.fields.imgURL}></img>
       </div>
 
       <Link to={`/detail/${params.id}/edit`}>
-        <button class="btn btn-light">Post a Review</button>
+        <button class="btn btn-light text-center" >Post a Review</button>
       </Link>
-      <div>
+      <div className="wholethang">
         {reviews.map((rev) => (
-          <div className="revsec">
+          <div class="border border-dark " className="revsec">
             <p class="font-weight-light font-italic">{rev.fields.review}</p>
             <h6>-{rev.fields.name}</h6>
           </div>
