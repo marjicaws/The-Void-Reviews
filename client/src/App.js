@@ -11,18 +11,17 @@ import Review from "./components/Review";
 
 function App() {
   const [horrorData, setHorrorData] = useState([]);
-  const [review, setReview] = useState([])
-  const [toggle, setToggle] = useState(false)
-
+  const [review, setReview] = useState([]);
+  const [toggle, setToggle] = useState(false);
 
   useEffect(() => {
     const getAllReviews = async () => {
       const resp = await grabReview();
       setReview(resp.records);
-      console.log(resp.records)
-    }
+      console.log(resp.records);
+    };
     getAllReviews();
-  }, [toggle])
+  }, [toggle]);
 
   useEffect(() => {
     const getAllMovies = async () => {
@@ -36,18 +35,28 @@ function App() {
   return (
     <div className="App">
       <head>
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
-        <title><link href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;600&display=swap" rel="stylesheet"/></title>
+        <link
+          rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          crossorigin="anonymous"
+        />
+        <title>
+          <link
+            href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;600&display=swap"
+            rel="stylesheet"
+          />
+        </title>
       </head>
       <Navbar />
       <Routes>
         <Route
           path="/"
           element={
-            <div  className = "imglink">
+            <div className="imglink">
               {horrorData.map((hd) => (
                 <Link to={`/detail/${hd.id}`}>
-                  <img src={hd.fields.imgURL} />
+                  <img className="image-grid" src={hd.fields.imgURL} />
                 </Link>
               ))}
             </div>
@@ -56,18 +65,10 @@ function App() {
         <Route
           path="/detail/:id"
           element={<Detail horrorData={horrorData} review={review} />}
-          
         />
-        <Route
-          path = '/new'
-          element = {<Submit />} />
+        <Route path="/new" element={<Submit />} />
 
-          <Route 
-            path = '/detail/:id/edit' 
-            element = {<Review />} />
-
-
-          
+        <Route path="/detail/:id/edit" element={<Review />} />
       </Routes>
       <Footer />
     </div>

@@ -1,31 +1,65 @@
-
 body {
-  background-color: #f7f5f3 ;
+  background-color: #f7f5f3;
   display: grid;
-  grid-column: 1 /3 ;
+  grid-column: 1 /3;
   grid-row: 2;
 }
 
 a {
-  
-  font-family: 'Archivo', sans-serif, 600;
+  font-family: "Archivo", sans-serif, 600;
   font-size: 75px;
-  color: #212738 ;
+  color: #212738;
   text-decoration: none;
   margin: 10px;
-  
-  
-
 }
 .submitlink {
-  font-size: large;
+  font-size: small;
+}
+.revboard {
+  background-image: url("./images/images-1.jpg");
+  padding: 40px;
+  padding-bottom: 200px;
+  margin-left: 50px;
+  margin-right: 150px;
+}
+.image-grid {
+  --gap: 16px;
+  --num-cols: 4;
+  --row-height: 300px;
 
+  box-sizing: border-box;
+  padding: var(--gap);
+  display: grid;
+  grid-template-columns: repeat(var(--num-cols), 1fr);
+  grid-auto-rows: var(--row-height);
+  gap: var(--gap);
+}
+
+.image-grid > img {
+  width: 100%;
+  height: 100%;
+}
+.revplate {
+  background-color: whitesmoke;
+  margin: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.btn {
+  margin: 10px;
+}
+.submitmes {
+  color: #f7f5f3;
+}
+.revsec {
+  background-color: whitesmoke;
+  padding: 1px;
+  margin-left: 500px;
+  margin-right: 500px;
 }
 
 .detail {
   background-image: url("./images/images-1.jpg");
-  
-
 }
 .moviedetail {
   background-color: whitesmoke;
@@ -35,16 +69,15 @@ a {
   max-width: 200px;
 }
 .webbio {
-  font-family: 'Archivo', sans-serif;
+  font-family: "Archivo", sans-serif;
 }
 ul {
   list-style-type: none;
 }
 
 li {
-  padding: 10px ;
+  padding: 10px;
   text-align: left;
-  
 }
 
 .formblock {
@@ -53,11 +86,11 @@ li {
   padding: 30px;
 }
 
-.nav {
-  background-color: #FFFFFF;
-  text-align: left;
+.biolink {
+  margin: 50px;
 }
-.App {
+
+.biolinks {
   text-align: center;
 }
 
@@ -66,14 +99,9 @@ li {
   pointer-events: none;
 }
 #detimg {
-display: grid;
-grid-template-rows: 1 , 3fr ;
-
-
+  display: grid;
+  grid-template-rows: 1, 3fr;
 }
-
-
-
 
 @keyframes App-logo-spin {
   from {
