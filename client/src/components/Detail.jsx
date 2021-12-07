@@ -21,7 +21,7 @@ export default function Detail(props) {
       </div>
 
       <Link to={`/detail/${params.id}/edit`}>
-        <button>Leave a review for this movie!</button>
+        <button class="btn btn-light">Post a Review</button>
       </Link>
       <div>
       
