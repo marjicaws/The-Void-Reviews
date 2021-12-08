@@ -69,7 +69,7 @@ export default function Submit() {
               </div>
             </div>
           </li>
-          <button type="submit" class="btn btn-secondary" className="btn">
+          <button type="submit" class="btn btn-secondary">
             Submit to the Void
           </button>
         </ul>

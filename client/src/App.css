@@ -72,13 +72,15 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.btn {
-  margin: 40px;
+.subbtn {
+  
   position: absolute;
+  margin: 60px;
 }
 .submitmes {
   color: #f7f5f3;
 }
+
 .revsec {
   background-color: whitesmoke;
   padding: 0px;

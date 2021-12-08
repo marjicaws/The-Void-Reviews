@@ -43,7 +43,7 @@ export default function Review() {
               />{" "}
             </li>
 
-            <button class="btn btn-secondary" type="submit">
+            <button className="subbtn" class="btn btn-secondary" type="submit">
               Submit to the Void
             </button>
           </form>
