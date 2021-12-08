@@ -99,6 +99,6 @@ no error message
 > If you haven't already, **Google your error message now**. See if those error messages return an answer. Include at least 2 resources you've tried to consult such as walk-throughs, stack overflow articles, and other discussion threads related to your error.
 
 ```md
-1. Link 1
-2. Link 2
+1. https://www.youtube.com/watch?v=rnhoY5Cdmy0
+
 ```
