@@ -4,7 +4,7 @@ export default function Navbar(props) {
   return (
     <nav>
     <div className="nav">
-      <Link class="text-dark" to="/">
+      <Link class="text-dark"  className ="title" to="/">
         The Void
       </Link>
       <ul class="nav justify-content-end" >
