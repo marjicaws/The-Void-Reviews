@@ -11,13 +11,14 @@ a {
   margin: 10px;
 }
 .submitlink {
-  font-size: xx-large;
+  font-size: 55px;
   color: #212738;
-  margin-bottom: 100px;
-  list-style-type: none;
+  margin-top: 200px;
+  padding: 10px;
 
-  text-decoration: none;
-  padding: 0px;
+  
+  
+  
 }
 
 .revboard {
@@ -36,6 +37,7 @@ a {
   masonry-auto-flow: next;
   align-tracks:start;
   grid-column: box-start;
+  background-image: url("./images/images-1.jpg");
 }
 
 .image-grid {
@@ -145,6 +147,18 @@ li {
 #detimg {
   display: grid;
   grid-template-rows: 1, 3fr;
+}
+
+.about {
+  margin: 50px;
+  font-weight:normal;
+  background-color: whitesmoke;
+  padding: 25px;
+}
+
+.aboutface {
+  background-image: url("./images/images-1.jpg");
+  padding: 40px;
 }
 
 @keyframes App-logo-spin {

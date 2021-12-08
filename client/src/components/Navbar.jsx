@@ -14,7 +14,7 @@ export default function Navbar(props) {
           
           </Link>
 
-<Link class="text-dark" to="/about">About</Link>
+<Link class="text-dark" className="submitlink" to="/about">About</Link>
         </li>
       </ul>
     </div>
