@@ -1,12 +1,8 @@
 body {
   background-color: #f7f5f3;
-  
 }
 
-
 .submitlink {
-  
-  
   margin-top: 200px;
   padding: 10px;
 
@@ -15,8 +11,6 @@ body {
   color: #212738;
   text-decoration: none;
   margin: 10px;
-  
-  
 }
 .title {
   font-family: "Archivo", sans-serif, 600;
@@ -35,18 +29,18 @@ body {
 }
 
 .imglink {
-  display: grid; 
-  grid-template-columns: repeat(4, 1fr); 
-  grid-template-rows: masonry; 
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: masonry;
   masonry-auto-flow: next;
-  align-tracks:start;
+  align-tracks: start;
   grid-column: box-start;
   background-image: url("./images/images-1.jpg");
   padding: 10px;
 }
 
 .image-grid {
-   /* --gap: 16px; */
+  /* --gap: 16px; */
   /* --num-cols: 4; */
   /* --row-height: 300px;  */
   width: 100%;
@@ -59,7 +53,6 @@ body {
   grid-auto-rows: var(--row-height);
   gap: var(--gap); */
 }
-
 
 .image-grid > img {
   /* width: 100%;
@@ -82,7 +75,6 @@ body {
 .btn {
   margin: 40px;
   position: absolute;
-  
 }
 .submitmes {
   color: #f7f5f3;
@@ -90,12 +82,10 @@ body {
 .revsec {
   background-color: whitesmoke;
   padding: 0px;
-  border: solid #212738  ;
+  border: solid #212738;
   border-width: thin;
 }
-.synp{
-
-  
+.synp {
   position: relative;
   margin: 10px;
   letter-spacing: 1px;
@@ -125,9 +115,8 @@ body {
   max-width: 500px;
   margin-left: 30px;
   padding: 30px;
- 
+
   text-align: center;
-  
 }
 .webbio {
   font-family: "Archivo", sans-serif;
@@ -150,7 +139,6 @@ li {
 
 .biolink {
   margin: 50px;
-  
 }
 
 .biolinks {
@@ -159,10 +147,9 @@ li {
   padding: 20px;
 }
 
-
 .about {
   margin: 50px;
-  font-weight:normal;
+  font-weight: normal;
   background-color: whitesmoke;
   padding: 25px;
 }
@@ -174,6 +161,18 @@ li {
 
 .abouttitle {
   color: whitesmoke;
+  position: absolute;
+  margin-left: 50px;
+}
+
+.aboutimg {
+  margin-left: 450px;
+  border: 5px solid whitesmoke;
+  border-radius: 50%;
+  width: 40%
+  
+
+
 }
 
 @keyframes App-logo-spin {
