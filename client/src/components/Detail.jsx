@@ -15,14 +15,16 @@ export default function Detail(props) {
   return (
     <div className="detail">
       <div className="moviedetail">
-        <h2 class="font-weight-normal">{horrors.fields.movie}</h2>
-        <p>{horrors.fields.synopsis}</p>
+        <h2 class="font-weight-normal" className="synp">{horrors.fields.movie}</h2>
+        <p className="synp">{horrors.fields.synopsis}</p>
         <img className="detimg" src={horrors.fields.imgURL}></img>
+        <Link to={`/detail/${params.id}/edit`}>
+        <button class="btn btn-light text-center border border-secondary" >Post a Review</button>
+      </Link>
+      
       </div>
 
-      <Link to={`/detail/${params.id}/edit`}>
-        <button class="btn btn-light text-center" >Post a Review</button>
-      </Link>
+     
       <div className="wholethang">
         {reviews.map((rev) => (
           <div class="border border-dark " className="revsec">

@@ -11,7 +11,10 @@ export default function Navbar(props) {
         <li class="nav-item">
           <Link class="text-dark" className="submitlink" to="/new">
             Submit New Movie
+          
           </Link>
+
+<Link class="text-dark" to="/about">About</Link>
         </li>
       </ul>
     </div>

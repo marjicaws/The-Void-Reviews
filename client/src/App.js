@@ -3,7 +3,7 @@ import { Routes, Route, Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { grabHorror, grabReview } from "./services/index";
 import Detail from "./components/Detail";
-import Home from "./components/Home";
+import About from "./components/About";
 import Navbar from "./components/Navbar";
 import Submit from "./components/Submit";
 import Footer from "./components/Footer";
@@ -67,7 +67,7 @@ function App() {
           element={<Detail horrorData={horrorData} review={review} />}
         />
         <Route path="/new" element={<Submit />} />
-
+          <Route path="/about" element={<About />} />
         <Route path="/detail/:id/edit" element={<Review />} />
       </Routes>
       <Footer />
