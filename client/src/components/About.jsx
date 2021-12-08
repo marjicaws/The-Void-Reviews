@@ -7,6 +7,7 @@ export default function Home () {
 
     return (
        <div class="aboutface">
+           <h1 className="abouttitle">Welcome to the Void!</h1>
            <p class="about">
                This is a website created by a software engineering student currently 
                attending General Assembly's Software Engineering Immersive! The 
