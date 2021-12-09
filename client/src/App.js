@@ -18,7 +18,7 @@ function App() {
     const getAllReviews = async () => {
       const resp = await grabReview();
       setReview(resp.records);
-      console.log(resp.records);
+      
     };
     getAllReviews();
   }, [toggle]);
@@ -27,7 +27,7 @@ function App() {
     const getAllMovies = async () => {
       const res = await grabHorror();
       setHorrorData(res.records);
-      console.log(res.records);
+      
     };
     getAllMovies();
   }, [toggle]);

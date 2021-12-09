@@ -150,10 +150,12 @@ li {
 }
 
 .about {
-  margin: 50px;
-  font-weight: normal;
+  margin: 100px;
+  font-weight: 300px;
   background-color: whitesmoke;
   padding: 25px;
+  color: #212738;
+  writing-mode: horizontal-tb;
 }
 
 .aboutface {
@@ -164,14 +166,15 @@ li {
 .abouttitle {
   color: whitesmoke;
   position: absolute;
-  margin-left: 50px;
+  margin-left: 100px;
 }
 
 .aboutimg {
-  margin-left: 450px;
+  margin-left: 100px;
   border: 5px solid whitesmoke;
   border-radius: 50%;
-  width: 40%
+  width: 20%;
+  
   
 
 
