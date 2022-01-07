@@ -4,6 +4,7 @@
 
 The Void Reviews
 
+https://void-reviews.netlify.app/
 ## Project Description
 
 Its a movie review website for horror movies strictly. 
@@ -140,7 +141,7 @@ The functionality will then be divided into two separate lists: MVP and PostMVP.
 #### PostMVP  
 
 
-- Utilize POST, PUT , DELETE to be able to add reviews to movie.
+- Add Edit and DELETE functions to be able to edit and delete reviews to a movie.
 
 ## Project Schedule
 
@@ -152,8 +153,8 @@ This schedule will be used to keep track of your progress throughout the week an
 |July 13| Project Approval | Complete
 |July 13| Core Application Structure (HTML, CSS, etc.) | Complete
 |July 14| Pseudocode / actual code | Complete
-|July 15| Initial Clickable Model  | Pending
-|July 16| MVP | Incomplete
+|July 15| Initial Clickable Model  | Complete
+|July 16| MVP | Complete
 |July 17| Presentations | Incomplete
 
 ## Timeframes
@@ -164,14 +165,14 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 |     ---     | :---: |  :---: | :---:  | :---:  |
-| Image Links | H     | 4hrs.  | 3 hrs  | XXXhrs |
-| GET Request | H     | 4hrs   | 4 hrs  | XXXhrs |
-| Set-up React File Structure| H     | 2hrs   | 2 hrs  | XXXhrs |
-| Format Comps| H     | 7hrs   | 2.5hrs | XXXhrs |
-| Submit Form | H     | 4hrs   | XXXhrs | XXXhrs |
-| CSS Styling |Med    | 4hrs   | XXXhrs | XXXhrs |
-| POST Request| H     | 4hrs   | XXXhrs | XXXhrs |
-| MVP         | H     | 8hrs   | XXXhrs | XXXhrs |
-| Total.      | H     | 37hrs   | XXXhrs | XXXhrs |
+| Image Links | H     | 4hrs.  | 3 hrs  | 3hrs.  |
+| GET Request | H     | 4hrs   | 4 hrs  | 4hrs.  |
+| Set-up React File Structure| H     | 2hrs   | 2 hrs  | 2hrs  |
+| Format Comps| H     | 7hrs   | 6hrs   | 6hrs   |
+| Submit Form | H     | 4hrs   | 3hrs   | 3hrs   |
+| CSS Styling |Med    | 4hrs   | 8hrs   | 8hrs   |
+| POST Request| H     | 4hrs   | 4hrs   | 4hrs   |
+| MVP         | H     | 8hrs   | 3hrs   | 3hrs   |
+| Total.      | H     | 37hrs  | 33hrs | 33hrs  |
 
 
