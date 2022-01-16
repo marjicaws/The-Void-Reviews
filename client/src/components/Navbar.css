@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+.nav {
+
+margin: 1vh;
+}
+
+.nav-title-box {
+padding-right: 5vw;
+font-size: 250%;
+text-decoration: none;
+
+
+
+}
+
+a.nav-title {
+
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2.5px;
+    color: black;
+    font-family: 'Rubik Beastly', cursive;
+    text-decoration: none;
+    
+}
+.nav-link1 {
+    display: inline-flex;
+    font-size: 150%;
+    justify-content: space-between;
+    margin-right: 2vw;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.2vw;
+
+    
+    
+
+  }
+  .nav-link2 {
+    display: inline-flex;
+    font-size: 150%;
+    justify-content: space-between;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.2vw;
+    
+    
+
+  }
+
+
+
+  .nav-links {
+    margin: 0px 10px 0 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5vh;
+  }

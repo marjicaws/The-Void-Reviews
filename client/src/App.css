@@ -2,16 +2,7 @@ body {
   background-color: #f7f5f3;
 }
 
-.submitlink {
-  margin-top: 200px;
-  padding: 10px;
 
-  font-family: "Archivo", sans-serif, 600;
-  font-size: 50px;
-  color: #212738;
-  text-decoration: none;
-  margin: 10px;
-}
 .title {
   font-family: "Archivo", sans-serif, 600;
   font-size: 75px;
@@ -139,46 +130,9 @@ li {
   padding: 30px;
 }
 
-.biolink {
-  margin: 50px;
-}
-
-.biolinks {
-  text-align: center;
-  margin: 10px;
-  padding: 20px;
-}
-
-.about {
-  margin: 100px;
-  font-weight: 300px;
-  background-color: whitesmoke;
-  padding: 25px;
-  color: #212738;
-  writing-mode: horizontal-tb;
-}
-
-.aboutface {
-  background-image: url("./images/images-1.jpg");
-  padding: 40px;
-}
-
-.abouttitle {
-  color: whitesmoke;
-  position: absolute;
-  margin-left: 100px;
-}
-
-.aboutimg {
-  margin-left: 100px;
-  border: 5px solid whitesmoke;
-  border-radius: 50%;
-  width: 20%;
-  
-  
 
 
-}
+
 
 @keyframes App-logo-spin {
   from {
