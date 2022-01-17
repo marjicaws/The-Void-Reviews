@@ -7,6 +7,7 @@ export default function Footer() {
         any good? Consult the Void! Our knowledge is infinite. We of many names
         believe that we are all one within the void so add your own rating,
         reviews, and even movies!
+
       </p>
       <div className="biolinks">
         <a href="https://www.linkedin.com/in/marjica-watson-santos-561aa7a9/">
